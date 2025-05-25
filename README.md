@@ -4,7 +4,7 @@
 
 **SQL Queries:** DDL, DML, Aggregations, Joins, Subqueries, Window Functions
 
-**Tools:** pgAdmin 4
+**Tool using:** pgAdmin 4
 
 ![Spotify](https://github.com/Issita/Spotify_Data_Analysis_using_SQL/blob/main/spotify.png)
 
