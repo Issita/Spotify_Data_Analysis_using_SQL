@@ -1,6 +1,6 @@
 # Spotify_Data_Analysis_using_SQL
 
-**Database:** PostgreSQL
+**Database:** Spotify_db
 
 **SQL Queries:** DDL, DML, Aggregations, Joins, Subqueries, Window Functions
 
