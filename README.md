@@ -22,3 +22,10 @@ Before diving into SQL, it’s important to understand the dataset thoroughly. T
 - **Album:** The album to which the track belongs.
 - **Album_type:** The type of album (e.g., single or album).
 - Various metrics such as **danceability, energy, loudness, tempo,** and more.
+
+## Queries
+1. Retrieve the names of all tracks that have more than 1 billion streams.
+```sql
+SELECT * FROM spotify
+WHERE Stream > 1000000000;
+```
