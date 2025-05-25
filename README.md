@@ -22,6 +22,40 @@ Before diving into SQL, it’s important to understand the dataset thoroughly. T
 - **Album:** The album to which the track belongs.
 - **Album_type:** The type of album (e.g., single or album).
 - Various metrics such as **danceability, energy, loudness, tempo,** and more.
+## Table Creation:
+
+```sql
+DROP TABLE IF EXISTS spotify;
+CREATE TABLE spotify(
+	Artist VARCHAR(255),
+	Track VARCHAR(255),
+	Album VARCHAR(255),
+	Album_type VARCHAR(50),
+	DanceabilitAlbum_typey FLOAT,	
+	Energy FLOAT,	
+	Loudness FLOAT,		
+	Speechiness FLOAT,	
+	Acousticness FLOAT,		
+	Instrumentalness FLOAT,	
+	Liveness FLOAT,	
+	Valence	FLOAT,	
+	Tempo FLOAT,	
+	Duration_min FLOAT,	
+	Title VARCHAR(255),
+	Channel	VARCHAR(255),
+	Views FLOAT,
+	Likes BIGINT,
+	Comments BIGINT,
+	Licensed BOOLEAN,
+	official_video BOOLEAN,
+	Stream BIGINT,
+	EnergyLiveness FLOAT,	
+	most_playedon VARCHAR(50)
+
+);
+
+```
+
 
 ## Queries
 **1. Retrieve the names of all tracks that have more than 1 billion streams.**
